@@ -1,0 +1,56 @@
+void main(){
+// Atividade 01
+// Criei as variáveis para realizar o cálculo
+var pi = 3.14;
+var raio = 150;
+// Criei o calculo da área do círculo com essa fórmula em mente: A = π * raio²
+var areaCirculo = pi * raio * raio;
+// Mostrar o resultado da área do círculo
+print('A área do círculo é: $areaCirculo');
+
+// Atividade 02
+// Criar as variáveis do funcionário
+var chapa = 25;
+var horasTrabalhadas = 100;
+var salarioHora = 5.50;
+// Criar a variável do cálculo do salário sobre as horas trabalhadas
+var calculoSalario = horasTrabalhadas * salarioHora;
+// Mostrar a chapa e o salário do funcionário
+print('Chapa do funcionario: $chapa\nSalário: R\$ ${calculoSalario.toStringAsFixed(2)}');
+
+// Atividade 03
+// Criei as variáveis do vendedor
+var nome = "João";
+var salarioFixo = 500;
+var vendas = 1230.30;
+// Criei a variável do cálculo de comissão sobre as vendas efetuadas
+var comissao = vendas * 0.15; //15% de comissão
+// Cálculo do salario total
+var salarioTotal = salarioFixo + comissao;
+// Mostrar o salário do vendedor
+print('$nome receberá R\$ ${salarioTotal.toStringAsFixed(2)} esse mês');
+
+// Atividade 04
+// Criei variáveis para realizar o cálculo
+var calor = 50;
+var temperatura = 12;
+var energiaInterna = 100;
+// Cálculo da variáção de calor
+var variacaoEnergia = temperatura + (- energiaInterna);
+// Cálculo da energia final
+var energiaFinal = (- variacaoEnergia) - (- calor);
+
+print('$energiaFinal');
+
+// Atividade 05
+// Criei variáveis para resolução da fórmula
+var calor1 = 23000;
+var temperatura1 = 12000;
+// Cálculo da variáção de calor
+var variacaoEnergia1 = temperatura1 / calor1;
+// Cálculo da energia final
+var porcentagemTrabalho = variacaoEnergia1 * 100;
+
+print('${porcentagemTrabalho.toStringAsFixed(2)}');
+
+}
